@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        .container {
+
+            margin: 80px;
+            margin-top: 80px;
+            align-self: center;
+            color: rgb(239, 236, 236);
+            background-color: rgb(230, 125, 26);
+            border-radius: 10px;
+            height: 300px;
+            width: 250px;
+            font-weight: bold;
+        }
+
+        input[type="submit"] {
+            margin-top: 5px;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            background-color: #1689cb;
+            height: 30px;
+            width: 80px;
+        }
+
+        form,
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+
+        <div class="container">
+            <h2>Register new account</h2>
+            <form>
+                <label for="username">Username</label><br>
+                <input type="text" name="username" id="username" placeholder="Username"><br><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Email"><br><br>
+
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" placeholder="Password"><br><br>
+
+                <input type="submit" value="Sign up" onclick="store()">
+            </form>
+
+        </div>
+    </center>
+</body>
+<script src="script.js">
+</script>
+
+</html>
